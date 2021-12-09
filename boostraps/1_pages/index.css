@@ -85,8 +85,10 @@
 }
 
 .image{
-    height: 54vh;
+    height: auto;
     width: auto;
+    min-width: 400px;
+    min-height: 400px;
 }
 
 .dark{
