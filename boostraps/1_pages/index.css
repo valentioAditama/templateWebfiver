@@ -7,6 +7,7 @@
     background-image: url(almani-aXtYkEMJih4-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .text1{
@@ -22,4 +23,58 @@
     transition: 0.3s;
     background-color: black;
     border: black;
+}
+.img__wrap {
+    position: relative;
+    height: auto;
+    width: auto;
+  }
+
+.img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    visibility: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}  
+
+.img__wrap::after{
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.card_bikes{
+    background-color: rgb(26, 24, 24);
+}
+
+.text2{
+    color: white;
+    font-size: 20vh;
+    -webkit-text-stroke: 2px rgb(24, 22, 22); /* width and color */
+    text-align: center;
+}
+
+.text3{
+    font-size: 32px;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700;
+    -webkit-text-stroke: 0.7px black;
+}
+
+.text4{
+    text-align: justify;
+    text-justify: inter-word;
 }
