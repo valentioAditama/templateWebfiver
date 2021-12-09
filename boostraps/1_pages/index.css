@@ -1,0 +1,25 @@
+.banner-image{
+    display: grid;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 70vh;
+    background-image: url(almani-aXtYkEMJih4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text1{
+    min-height: 25vh;
+}
+
+.link-image{
+    transition: 0.3s;
+}
+
+.link-image:hover{
+    padding: 5px;
+    transition: 0.3s;
+    background-color: black;
+    border: black;
+}
