@@ -78,3 +78,17 @@
     text-align: justify;
     text-justify: inter-word;
 }
+
+.text5{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 30px;
+}
+
+.image{
+    height: 250px;
+    width: auto;
+}
+
+.dark{
+    background-color: black;
+}
