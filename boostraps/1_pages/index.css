@@ -126,10 +126,6 @@
       margin-top: 20px;
   }
 
-  .banner-image{
-      background-position: -200px 0px;
-  }
-
 }
 
   @media (max-width: 500px) {
