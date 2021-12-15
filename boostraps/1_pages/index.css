@@ -122,6 +122,12 @@
         text-align: center;
   }
 
+  .image2{
+      margin-top: 20px;
+  }
+
+}
+
   @media (max-width: 500px) {
       .text2{
         color: white;
@@ -139,7 +145,7 @@
         background-image: url(almani-aXtYkEMJih4-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -250px 0px;
+        background-position: -50px 0px;
         font-family: 'Source Serif Pro', serif;
     }
     
