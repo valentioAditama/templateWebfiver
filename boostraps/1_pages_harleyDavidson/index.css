@@ -122,12 +122,15 @@
         text-align: center;
   }
 
+<<<<<<< HEAD
+=======
   .image2{
       margin-top: 20px;
   }
 
 }
 
+>>>>>>> f7a79e83a7e32725a18c2d272b06bfc3fd67cc65
   @media (max-width: 500px) {
       .text2{
         color: white;
@@ -145,7 +148,11 @@
         background-image: url(almani-aXtYkEMJih4-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+<<<<<<< HEAD
+        background-position: -250px 0px;
+=======
         background-position: -50px 0px;
+>>>>>>> f7a79e83a7e32725a18c2d272b06bfc3fd67cc65
         font-family: 'Source Serif Pro', serif;
     }
     
