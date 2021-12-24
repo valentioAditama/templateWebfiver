@@ -114,9 +114,29 @@
     background: rgb(103, 100, 100); 
   }
 
+<<<<<<< HEAD
 
 @media (min-width: 320px) {
     .banner-image{
+=======
+  @media (min-width: 315px) {
+    .text2{
+        color: white;
+        font-size: 8vh;
+        -webkit-text-stroke: 2px rgb(24, 22, 22); /* width and color */
+        text-align: center;
+  }
+
+  @media (max-width: 500px) {
+      .text2{
+        color: white;
+        font-size: 8vh;
+        -webkit-text-stroke: 2px rgb(24, 22, 22); /* width and color */
+        text-align: center;
+      }
+
+      .banner-image{
+>>>>>>> 28bb648036b46c5f59210864fc7bdc7300cfd826
         display: grid;
         height: 100%;
         max-height: 100%;
@@ -125,6 +145,10 @@
         background-image: url(almani-aXtYkEMJih4-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+<<<<<<< HEAD
+=======
+        background-position: -250px 0px;
+>>>>>>> 28bb648036b46c5f59210864fc7bdc7300cfd826
         font-family: 'Source Serif Pro', serif;
     }
     
@@ -177,11 +201,136 @@
         background-color: rgb(26, 24, 24);
     }
     
+<<<<<<< HEAD
     .text2{
         color: white;
         font-size: 10vh;
         -webkit-text-stroke: 2px rgb(24, 22, 22); /* width and color */
         text-align: center;
+=======
+    .text3{
+        font-size: 32px;
+        color: white;
+        font-family: 'Source Serif Pro', serif;
+        font-weight: 700;
+        -webkit-text-stroke: 0.7px black;
+    }
+    
+    .text4{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    
+    .text5{
+        font-family: 'Source Serif Pro', serif;
+        font-size: 30px;
+    }
+    
+    .image{
+        height: auto;
+        width: auto;
+        min-width: 400px;
+        min-height: 400px;
+    }
+
+    .image2{
+        margin-top: 20px;
+    }
+    
+    .dark{
+        background-color: black;
+    }
+    
+    ::-webkit-scrollbar{
+        width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track{
+        box-shadow: inset 0 0 5px grey;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: gray; 
+        border-radius: 10px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(103, 100, 100); 
+      }
+    
+  }
+
+  @media (max-width: 1000px) {
+    .text2{
+        color: white;
+        font-size: 12vh;
+        -webkit-text-stroke: 2px rgb(24, 22, 22); /* width and color */
+        text-align: center;
+      }
+
+      .banner-image{
+        display: grid;
+        height: 100%;
+        max-height: 100%;
+        max-width: 100%;
+        min-height: 70vh;
+        background-image: url(almani-aXtYkEMJih4-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-position: -250px 0px; */
+        font-family: 'Source Serif Pro', serif;
+    }
+    
+    .text1{
+        min-height: 25vh;
+    }
+    
+    .link-image{
+        transition: 0.3s;
+    }
+    
+    .link-image:hover{
+        padding: 5px;
+        transition: 0.3s;
+        background-color: black;
+        border: black;
+    }
+    .img__wrap {
+        position: relative;
+        height: auto;
+        width: auto;
+      }
+    
+    .img__description {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        color: #fff;
+        visibility: hidden;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        opacity: 0;
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+    }
+    
+    .img__wrap:hover .img__description {
+        visibility: visible;
+        opacity: 1;
+    }  
+    
+    .img__wrap::after{
+        background: rgba(0, 0, 0, 0.9);
+    }
+    
+    .card_bikes{
+        background-color: rgb(26, 24, 24);
+>>>>>>> 28bb648036b46c5f59210864fc7bdc7300cfd826
     }
     
     .text3{
@@ -208,6 +357,13 @@
         min-width: 400px;
         min-height: 400px;
     }
+<<<<<<< HEAD
+=======
+
+    .image2{
+        margin-top: 10px;
+    }
+>>>>>>> 28bb648036b46c5f59210864fc7bdc7300cfd826
     
     .dark{
         background-color: black;
@@ -231,6 +387,7 @@
       ::-webkit-scrollbar-thumb:hover {
         background: rgb(103, 100, 100); 
       }
+<<<<<<< HEAD
 }
 
 @media (min-width: 768px) {}
@@ -240,3 +397,12 @@
 @media (min-width: 1200px) { }
 
 @media (min-width: 1400px) { }
+=======
+  }
+
+  @media (min-width: 769px ) {
+    .image2{
+        margin-top: 0px;
+    }
+}
+>>>>>>> 28bb648036b46c5f59210864fc7bdc7300cfd826
