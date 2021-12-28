@@ -12,6 +12,9 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
   <!-- MDB -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -140,15 +143,40 @@
   </div>
   <!-- Carousel wrapper -->
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 justify-content-center">
+  <div class="container page2">
+    <div class="row align-items-center"> 
+      <div class="col-md-6 text1" data-aos="fade-down">
         A café racer is a genre of sport motorcycles that originated among British motorcycle enthusiasts of the early 1960s in London. Café racers were standard production bikes that were modified by their owners and optimized for speed and handling for quick rides over short distances.[1] Café racers have since become popular around the world, and some manufacturers produce factory-made models that are available in the showrooms.
       </div>
       <div class="col-md-6">
-        <center>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BSA_riders_at_2007_Ace_Cafe_reunion.jpg/300px-BSA_riders_at_2007_Ace_Cafe_reunion.jpg" class="img-fluid" alt="">
-        </center>
+        <img src="asset/BSA_riders_at_2007_Ace_Cafe_reunion.jpg" data-aos="fade-up" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid page2">
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h4>History</h4>
+          <ul class="timeline">
+            <li>
+              <a target="_blank" data-aos="fade-right" href="https://www.totoprayogo.com/#">1950 in london</a>
+              <p data-aos="fade-up">In 1950 in London, England, there was a group of young rockers--rock music lovers--who poured their hobbies and looked different with motorbikes. They want to create a new trend of motorcycle modification which is now known as the cafe racer flow.</p>
+              <img src="asset/3912604044.jpg" class="img-fluid" data-aos="fade-down">
+            </li>
+            <li>
+              <a href="#">21 000 Job Seekers</a>
+              <a href="#" class="float-right">4 March, 2014</a>
+              <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+            </li>
+            <li>
+              <a href="#">Awesome Employers</a>
+              <a href="#" class="float-right">1 April, 2014</a>
+              <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -156,6 +184,11 @@
 
   <!-- MDB -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>
