@@ -114,11 +114,6 @@
     background: rgb(103, 100, 100); 
   }
 
-<<<<<<< HEAD
-
-@media (min-width: 320px) {
-    .banner-image{
-=======
   @media (min-width: 315px) {
     .text2{
         color: white;
@@ -126,6 +121,12 @@
         -webkit-text-stroke: 2px rgb(24, 22, 22); /* width and color */
         text-align: center;
   }
+
+  .image2{
+      margin-top: 20px;
+  }
+
+}
 
   @media (max-width: 500px) {
       .text2{
@@ -136,7 +137,6 @@
       }
 
       .banner-image{
->>>>>>> 28bb648036b46c5f59210864fc7bdc7300cfd826
         display: grid;
         height: 100%;
         max-height: 100%;
@@ -145,10 +145,7 @@
         background-image: url(almani-aXtYkEMJih4-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-<<<<<<< HEAD
-=======
-        background-position: -250px 0px;
->>>>>>> 28bb648036b46c5f59210864fc7bdc7300cfd826
+        background-position: -50px 0px;
         font-family: 'Source Serif Pro', serif;
     }
     
@@ -201,13 +198,6 @@
         background-color: rgb(26, 24, 24);
     }
     
-<<<<<<< HEAD
-    .text2{
-        color: white;
-        font-size: 10vh;
-        -webkit-text-stroke: 2px rgb(24, 22, 22); /* width and color */
-        text-align: center;
-=======
     .text3{
         font-size: 32px;
         color: white;
@@ -330,7 +320,6 @@
     
     .card_bikes{
         background-color: rgb(26, 24, 24);
->>>>>>> 28bb648036b46c5f59210864fc7bdc7300cfd826
     }
     
     .text3{
@@ -357,13 +346,10 @@
         min-width: 400px;
         min-height: 400px;
     }
-<<<<<<< HEAD
-=======
 
     .image2{
         margin-top: 10px;
     }
->>>>>>> 28bb648036b46c5f59210864fc7bdc7300cfd826
     
     .dark{
         background-color: black;
@@ -387,17 +373,6 @@
       ::-webkit-scrollbar-thumb:hover {
         background: rgb(103, 100, 100); 
       }
-<<<<<<< HEAD
-}
-
-@media (min-width: 768px) {}
-
-@media (min-width: 992px) {  }
-
-@media (min-width: 1200px) { }
-
-@media (min-width: 1400px) { }
-=======
   }
 
   @media (min-width: 769px ) {
@@ -405,4 +380,3 @@
         margin-top: 0px;
     }
 }
->>>>>>> 28bb648036b46c5f59210864fc7bdc7300cfd826
