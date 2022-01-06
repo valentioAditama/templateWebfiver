@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="tom.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="asset/logo spiderman.png">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".preloader").delay(6000).fadeOut();
+        })
+    </script>
+</head>
+
+<body>
+    <!-- <audio id="my_audio" controls autoplay>
+        <source id="play" src="asset/begin.mp3" type="audio/mp3">
+    </audio> -->
+    <div class="preloader bg-dark">
+        <div class="loading">
+            <img src="asset/loading tomholland.gif" width="400" data-aos="zoom-out">
+            <p class="text-center text-light">Loading ...</p>
+        </div>
+    </div>
+    <header>
+        <style>
+            #intro {
+                background-image: url("asset/_Call\ Me\ Spider-Man_\ -\ Suit\ Up\ Scene\ -\ Stan\ Lee\ Cameo\ -\ Spider-Man_\ Homecoming\ \(2017\)\ Movie\ CLIP\ HD.mp4");
+                height: 100vh;
+            }
+
+            /* Height for devices larger than 576px */
+            @media (min-width: 992px) {
+                #intro {
+                    margin-top: -58.59px;
+                }
+            }
+
+            .navbar .nav-link {
+                color: #fff !important;
+            }
+        </style>
+
+        <div class="overlay"></div>
+
+        <!-- The HTML5 video element that will create the background video on the header -->
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source
+                src="asset/_Call Me Spider-Man_ - Suit Up Scene - Stan Lee Cameo - Spider-Man_ Homecoming (2017) Movie CLIP HD.mp4"
+                type="video/mp4">
+        </video>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+            <div class="container-fluid">
+                <!-- Navbar brand -->
+                <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+                    <i class="fas fa-spider"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarExample01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="#intro">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA"
+                                rel="nofollow" target="_blank">Movie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://mdbootstrap.com/docs/standard/" target="_blank">Rating
+                                List Movie</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav d-flex flex-row">
+                        <!-- Icons -->
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA"
+                                rel="nofollow" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="https://www.facebook.com/mdbootstrap" rel="nofollow"
+                                target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow"
+                                target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+        <!-- Background image -->
+        <div id="intro" class="bg-image shadow-2-strong">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
+                <div class="container d-flex align-items-center justify-content-center text-center h-75">
+                    <div class="text-white">
+                        <h1 class="mb-3">History Spider-Man Tom Holland</h1>
+                        <h5 class="mb-4">Best Guide of Spiderman History</h5>
+                        <a class="btn btn-outline-light btn-lg m-2" href="https://www.youtube.com/watch?v=fSuZrDcUtts"
+                            role="button" rel="nofollow" target="_blank">Watch Video</a>
+                        <a class="btn btn-outline-light btn-lg m-2"
+                            href="https://id.pinterest.com/search/pins/?q=spiderman%20tom%20holland&rs=typed&term_meta[]=spiderman%7Ctyped&term_meta[]=tom%7Ctyped&term_meta[]=holland%7Ctyped"
+                            target="_blank" role="button">See Wallpaper Spiderman</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background image -->
+    </header>
+    <!--Main Navigation-->
+
+    <div class="page1">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="asset/spider-man-tom-holland.jpg" class="img-fluid" data-aos="fade-in" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p class="lead text1" data-aos="fade-in">
+                        Spider-Man: Homecoming is a 2017 American superhero film based on the Marvel Comics character
+                        Spider-Man, co-produced by Columbia Pictures and Marvel Studios, and distributed by Sony
+                        Pictures Releasing. It is the second Spider-Man film reboot and the sixteenth film in the Marvel
+                        Cinematic Universe. </p>
+                </div>
+            </div>
+            <div class="row align-items-center page1">
+                <h3 class="text-center" data-aos="fade-in">SPIDER-MAN: HOMECOMING</h3>
+                <hr>
+                <div class="col-md-6">
+                    <img src="asset/homecoming spiderman.jpg" class="img-fluid" data-aos="fade-in" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p class="lead text-center text1" data-aos="fade-in">
+                        Spider-Man: Homecoming tells the story of Peter Parker, who balances his life as an ordinary
+                        high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the
+                        trail of a new threat roaming the skies of New York City. The Avengers), Adrian Toomes (Michael
+                        Keaton) and his company are contracted to clean up the city, but their operations are taken over
+                        by the Department of Damage Control (DODC), a partnership between Tony Stark (Robert Downey Jr.)
+                        and the US government.
+                    </p>
+                </div>
+                <div class="container video">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/39udgGPyYMg" title="YouTube video" allowfullscreen
+                            data-aos="fade-out"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page1 bg-dark text-light">
+        <div class="container-fluid">
+            <div class="row align-items-center page1">
+                <h3 class="text-center" data-aos="fade-in">SPIDER-MAN: FAR FROM HOME </h3>
+                <hr>
+                <div class="col-md-6">
+                    <img src="asset/spiderman far from home.jpg" class="img-fluid" data-aos="fade-in" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p class="lead text-center text1" data-aos="fade-in">
+                        Peter Parker (Tom Holland) is visiting Europe for a long vacation with his friends.
+                        Unfortunately, Parker could not calmly enjoy his vacation, because Nick Fury arrived suddenly in
+                        his hotel room. While in Europe Peter had to face many enemies ranging from Hydro Man, Sandman
+                        and Molten Man. </p>
+                </div>
+                <div class="container video">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/DYYtuKyMtY8" title="YouTube video" allowfullscreen
+                            data-aos="fade-out"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page1">
+        <div class="container-fluid">
+            <div class="row align-items-center page1">
+                <h3 class="text-center" data-aos="fade-in">SPIDER-MAN: NO WAY HOME </h3>
+                <hr>
+                <div class="col-md-6">
+                    <img src="asset/spiderman no way home.jpg" class="img-fluid" data-aos="fade-in" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p class="lead text-center text1" data-aos="fade-in">
+                        Spider-Man's identity has now been revealed, and Peter turns to Doctor Strange for help. however
+                        a mistake occurred, and it invited dangerous enemies from another world, they began to appear.
+                        It forces Peter to find out what it really means to be Spider-Man. </p>
+                </div>
+                <div class="container video">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/rt-2cxAiPJk" title="YouTube video" allowfullscreen
+                            data-aos="fade-out"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="page1">
+        <h4 data-aos="fade-out">Gallery The Amazing Spiderman</h4>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="asset/490908.jpg" class="img-fluid gallery" data-aos="fade-in" alt="">
+            </div>
+            <div class="col-md-6">
+                <img src="asset/273347.jpg" class="img-fluid gallery" data-aos="fade-in" alt="">
+            </div>
+            <div class="col-md-6">
+                <img src="asset/943483.jpg" class="img-fluid gallery" data-aos="fade-out" alt="">
+            </div>
+            <div class="col-md-6">
+                <img src="asset/222419.jpg" class="img-fluid gallery" data-aos="fade-out" alt="">
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    <figure class="text-center">
+                        <blockquote class="blockquote">
+                            <p>
+                                "Everyone has a part of themselves that is hidden. Even from the people they love the
+                                most."
+                            </p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer text-light">
+                            Someone famous in <cite title="Source Title">Spiderman</cite>
+                        </figcaption>
+                    </figure>
+                </p>
+            </section>
+            <!-- Section: Text -->
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Redesign By Valentio Aditama</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".preloader").delay(5000).fadeout();
+        })
+
+        // $(document).ready(function () {
+        //     $("#my_audio").get(0).play();
+        // });
+
+        AOS.init();
+    </script>
+</body>
+
+</html>
